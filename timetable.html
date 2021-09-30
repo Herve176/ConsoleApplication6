@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:2px solid black;
+}
+</style>
+<head>
+  <title>My timetable</title>
+  <script src="realtime.js"></script>
+  <link href="C:\Users\hdjom\OneDrive\Dokumente\timetable\mytimetabl.css" rel="stylesheet">
+</head>
+<body><!-- Button to open the modal login form -->
+  <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+  
+  <!-- The Modal -->
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+  class="close" title="Close Modal">&times;</span>
+  
+    <!-- Modal Content -->
+    <form class="modal-content animate" action="/action_page.php">
+      <div class="imgcontainer " >
+        <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      </div>
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+  
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+<h2>Here is a personal timetable</h2>
+
+<table id="days of the week" style="width:100%;height:100%" style="background-color:mediumseagreen ;">
+  <tr><trong> 
+<td style="background-color:rebeccapurple;"><center>Time</center></td>
+    <td style="background-color:mediumseagreen ;"><center>Monday</center></td>   
+<td style="background-color:whitesmoke ;"><center>Tuesday</center></td>
+    <td style="background-color:black ;"><center>Wednesday</center></td>
+    <td style="background-color:yellowgreen ;"><center>Thursday</center></td>
+    <td style="background-color:violet ;"><center>Friday</center></td></trong>
+  </tr>
+  <tr>
+    <td style="width:50%;height:100%">7hrs-9hrs</td>
+    <td style="width:200%;height:100%"> </td>
+    <td style="width:200%;height:100%"> </td>
+    <td style="width:200%;height:100%"> </td>
+    <td style="width:200%;height:100%"> </td>
+    <td style="width:200%;height:100%">  </td>
+
+  </tr>
+  <tr>
+    <td style="width:50%;height:100%">9hrs-11hrs</td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+
+  </tr>
+  <tr>
+    <td style="width:50%;height:100%">11hrs-13hrs</td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+
+  </tr>
+  <tr>
+    <td style="width:50%;height:100%">13hrs-15hrs</td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+
+  </tr>
+  <tr>
+    <td style="width:50%;height:100%">15hrs-17hrs  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+
+  </tr>
+  <tr>
+    <td style="width:50%;height:100%">17hrs-19hrs  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+
+  </tr>
+  <tr>
+    <td style="width:50%;height:100%">19hrs-21hrs  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+    <td style="width:200%;height:100%">  </td>
+
+  </tr>
+</table>
+
+<p>Love what you do</p>
+
+</body>
+</html>

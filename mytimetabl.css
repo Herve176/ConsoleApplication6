@@ -1,0 +1,211 @@
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+body {background-color:cornflowerblue;
+
+    margin-left: 200px;
+    
+    margin-right: 200px
+    
+    
+    
+    }
+    
+    
+    
+    /* SETS COLOR, FONT AND ALIGNMENT FOR THE MAIN TITLE */
+    
+    h1   {
+    
+    font-family:"Trebuchet MS",Arial,"sans-serif";
+    
+    font-size:36px;
+    
+    color:Navy;
+    
+    font-style:italic;
+    
+    font-weight:bold;
+    
+    text-align:center;
+    
+    }
+    
+    
+    
+    /* SETS COLOR, FONT AND ALIGNMENT FOR SECTION HEADINGS */
+    
+    h2	{
+    
+    font-family:"Trebuchet MS",Arial,"sans-serif";
+    
+    font-size:17px;
+    
+    color:Navy;
+    
+    font-style:italic;
+    
+    font-weight:bold;
+    
+    text-align:center;
+    
+    }
+    
+    
+    
+    /* FORMATS TEXT IN THE MAIN PARAGRAPHS */
+    
+    p	{
+    
+    font-family:"Trebuchet MS", Arial, "sans-serif";
+    
+    color:#000000;
+    
+    font-size:13px;
+    
+    font-weight:bold;
+    
+    text-align:left;
+    
+    vertical-align:text-top;
+    
+    }
+    
+    
+    
+    
+    
+    /* FORMATS TEXT IN THE PICTURE CAPTIONS */
+    
+    h3 {
+    
+    font-family:Arial,"sans-serif";
+    
+    color:#800000;
+    
+    font-weight:bold;
+    
+    font-style:italic;
+    
+    text-align:left;
+    
+    font-size:10px;
+    
+    }
+    
+    
+    
+    /* FORMATS BOOKMARK HYPERLINKS */
+    
+    .links2 {list-style-type: none;
+    
+    padding-left: 0;
+    
+    margin-left: 0;
+    
+    display: block;
+    
+    color: #800000
+    
+
+    
+    }
+    
+    /* FORMATS HORIZONTAL LINE UNDER THE TITLE */
+    
+    hr	 {
+    
+    border:0;
+    
+    color:#800000;
+    
+    height:2px;
+    
+    width:70%;
+    
+    }
+    
+    
+    
+    /*FORMATS TABLE PROPERTIES */
+    
+    table 	{
+    
+    border-collapse:collapse;
+    
+    border:100% greenyellow;
+    
+    width:100%;
+    
+    
+    float:right;
+    
+    font-family:Arial,"sans-serif";
+    
+    color:green;
+    
+    font-weight:bold;
+    
+    font-style:italic;
+    
+    text-align:left;
+    
+    font-size:150%;
+    
+    }
